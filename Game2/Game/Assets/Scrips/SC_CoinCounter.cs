@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class SC_CoinCounter : MonoBehaviour
 {
     private TextMeshProUGUI counterText;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +19,9 @@ public class SC_CoinCounter : MonoBehaviour
     void Update()
     {
         //Set the current number of coins to display
-        if (counterText.text != SC_2DCoin.totalCoins.ToString())
+        if (counterText.text != SC_2DCoin.totalCoins.ToString()+"/"+CollectCoinsToContinue.maxCoins)
         {
-            counterText.text = SC_2DCoin.totalCoins.ToString();
+            counterText.text = SC_2DCoin.totalCoins.ToString()+"/"+CollectCoinsToContinue.maxCoins;
         }
     }
 }

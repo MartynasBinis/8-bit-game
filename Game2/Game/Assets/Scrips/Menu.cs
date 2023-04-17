@@ -61,6 +61,7 @@ public class Menu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         health.currentHealth=10;
+        SC_2DCoin.totalCoins=0;
         IsPlayerDead = false;
         SceneManager.LoadScene(sceneName);
     }
