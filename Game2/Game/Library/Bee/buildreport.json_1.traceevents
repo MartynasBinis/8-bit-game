@@ -1,0 +1,665 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680090370723419, "dur": 329449, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680090370724118, "dur": 9547, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680090370733669, "dur": 311869, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680090371045541, "dur": 7326, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680090371053936, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680090370789201, "dur":2948, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370792173, "dur":447, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680090370792678, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680090370792749, "dur":829, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680090370793676, "dur":2206, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370795882, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370986802, "dur":192, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370986994, "dur":101, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987095, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987105, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987150, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987153, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987192, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987195, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370987207, "dur":3628, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990835, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990862, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990866, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990880, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990883, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990900, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990903, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990919, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370990945, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370991002, "dur":4545, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680090370794291, "dur":1612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370795909, "dur":18307, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370814241, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680090370814247, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370814362, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680090370814367, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370814640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370817092, "dur":20463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680090370837561, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680090370837660, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370838118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370838235, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680090370844412, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680090370844495, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370844672, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370845064, "dur":18243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680090370863400, "dur":1891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370865291, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370865588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370865609, "dur":8192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370873876, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370873950, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370874020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370874039, "dur":7896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370882014, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370882131, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370882494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370882516, "dur":5076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370887705, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370887790, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370888021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370888042, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370892150, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370892230, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370892339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370892360, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370896187, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370896263, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370896465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370896484, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370901963, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370902034, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370902169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370902187, "dur":7712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370909970, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370910040, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370910568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370910587, "dur":4512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370915178, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370915261, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370915448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370915467, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370922558, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370922624, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370922795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370922816, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370926381, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370926691, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370926885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370926944, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370931154, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370931223, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370931284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370931304, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370936044, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370936126, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370936190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680090370936208, "dur":40130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680090370976435, "dur":10321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370794306, "dur":1611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370795917, "dur":18536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370814454, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1680090370814544, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370814797, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370824305, "dur":17323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1680090370841716, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680090370841796, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370841882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370843213, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680090370845698, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1680090370845788, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370845857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370845878, "dur":6168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1680090370852129, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370852208, "dur":499, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370852772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370853263, "dur":4477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370857819, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370857904, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370858182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370858201, "dur":4935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370863224, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370863307, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370863526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370863547, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370868401, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370868479, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370868645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370868665, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370873245, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370873330, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370873434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370873453, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370877255, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370877324, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370877392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370877411, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370880850, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370880919, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370880988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370881008, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370885750, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370885816, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370885946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370885966, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370889654, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370889780, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370890011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370890031, "dur":4442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370894550, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370894622, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370894991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370895011, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370898322, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370898399, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370898724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370898745, "dur":10691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370909528, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370909599, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370910236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370910258, "dur":4282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370914612, "dur":1374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370915986, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370916145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370916164, "dur":10320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370926560, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370926631, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370926888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370926949, "dur":11292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370938322, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370938397, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370938564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370938582, "dur":18162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680090370956850, "dur":4389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1680090370961240, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370961791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680090370961812, "dur":15455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1680090370977347, "dur":9416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370794602, "dur":1368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370795970, "dur":18257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370814242, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680090370814385, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370814761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370824625, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680090370829537, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680090370829737, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370829874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370837955, "dur":10023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1680090370848052, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370848138, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370848565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370848859, "dur":42097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370891035, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370891171, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370891546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370891567, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370895679, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370895776, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370895897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370895917, "dur":5514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370901512, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370901589, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370901660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370901680, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370906417, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370906523, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370906644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370906664, "dur":7097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370913843, "dur":1066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370914910, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370915237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370915262, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370918862, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370919074, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370919187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370919239, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370923864, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370924250, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370924703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370924722, "dur":14982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370939786, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370939860, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370940197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370940217, "dur":6258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680090370946570, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1680090370946686, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370946811, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1680090370952095, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680090370952187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680090370952253, "dur":22455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680090370974775, "dur":12025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370794477, "dur":1466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370795944, "dur":18476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370814421, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680090370814532, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370814856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370842295, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680090370845101, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680090370845188, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370845256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370845278, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680090370850204, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680090370850295, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370850537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370850552, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680090370855497, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370855598, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370855664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370856239, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370860050, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370860142, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370860208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370860230, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370863928, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370864001, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370864387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370864408, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370868684, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370868754, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370868916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370868936, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370875694, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370875767, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370876505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370876528, "dur":5477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370882088, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370882159, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370882581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370882865, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370894630, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370894699, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370894811, "dur":187, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370895023, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370898112, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370898181, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370898722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370898745, "dur":4530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370903350, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370903443, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370903552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370903575, "dur":7766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370911411, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370911484, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370911649, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370911697, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370915816, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370916256, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370916385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370916403, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370920529, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370920595, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370920888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370920907, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370924763, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370925050, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370925210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370925230, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370928176, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370928244, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370928465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370928485, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370932839, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370932901, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370933182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370933199, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370936167, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370936238, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370936352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370936372, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370940461, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370940534, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370940692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370940710, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370943036, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370943115, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370943307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370943324, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370945970, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370946370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370946389, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680090370951673, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680090370951758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370951785, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680090370954329, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680090370954414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370954433, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680090370956847, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1680090370957122, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370957196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370957215, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1680090370959613, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1680090370959691, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370959715, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1680090370964122, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1680090370964193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370964211, "dur":5381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1680090370969669, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1680090370969988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680090370970052, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1680090370973023, "dur":13774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370794459, "dur":1472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370795932, "dur":18668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370814602, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1680090370814733, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370814868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370844301, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1680090370846585, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370846673, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370846760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370847521, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370851648, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1680090370852215, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370852603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370853577, "dur":11965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1680090370865619, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370865693, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370865848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370865866, "dur":4931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370870866, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370870939, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370871244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370871308, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370874803, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370874883, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370875023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370875044, "dur":9308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370884457, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370884524, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370884992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370885014, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370888367, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370888448, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370888590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370888621, "dur":7798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370896495, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370896569, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370896714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370896733, "dur":4714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370901526, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370901604, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370901671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370901698, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370906341, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370906424, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370906617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370906642, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370911548, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370911619, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370911795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370911817, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370916311, "dur":1259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370917571, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370917690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370917709, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370922275, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370922344, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370922794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370922816, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370925948, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370926261, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370926339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370926358, "dur":5224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370931659, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370931730, "dur":1147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370932894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370932915, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370937773, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370937841, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370937953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370937972, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370942848, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370942920, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370943059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370943078, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680090370946846, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680090370946927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370946943, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680090370949333, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680090370949446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370949463, "dur":9131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680090370958675, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680090370958775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370958795, "dur":7373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1680090370966247, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1680090370966329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370966346, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1680090370971469, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1680090370971682, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370972357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680090370972375, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1680090370973998, "dur":12789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370794592, "dur":1363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370795956, "dur":18274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370814242, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370814407, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370814806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370824355, "dur":14315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370838764, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370838858, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370839162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370839183, "dur":5211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370844499, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370844596, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370844657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370844950, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1680090370849397, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370849492, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370849604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370849618, "dur":45510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370895215, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370895292, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370895357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370895374, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370900955, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370901034, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370901106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370901170, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370905097, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370905163, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370905316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370905337, "dur":6311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370911735, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370911811, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370911981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370912001, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370917029, "dur":1577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370918607, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370918739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370918757, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370923737, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370924027, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370924106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370924125, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370927771, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370927875, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370927973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370928001, "dur":9196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370937267, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370937342, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370937443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370937461, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370942381, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370942463, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370942534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370942553, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370945305, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370945376, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370945448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370945467, "dur":13797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680090370959334, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680090370959412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370959429, "dur":7317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680090370966956, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680090370967035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680090370967052, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1680090370972756, "dur":14042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370794706, "dur":1274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370795981, "dur":18241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370814240, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1680090370814401, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370814827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370824881, "dur":18002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1680090370842987, "dur":1191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680090370844179, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370844241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370845006, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1680090370849923, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1680090370850146, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370850491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370850509, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1680090370856675, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370856755, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370856825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370856845, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370860069, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370860167, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370860251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370860300, "dur":5703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370866075, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370866202, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370866294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370866314, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370870321, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370870394, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370870766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370870786, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370874258, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370875007, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370875098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370875117, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370877512, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370877581, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370877682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370877700, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370882151, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370882232, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370882502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370882529, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370886837, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370886903, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370887180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370887200, "dur":23119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370910404, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370910476, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370910550, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370910578, "dur":9495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370920155, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370921108, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370921402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370921421, "dur":4168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370925660, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370925963, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370926071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370926089, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370929354, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370929424, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370929530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370929819, "dur":5747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370935652, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370935725, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370935854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370935875, "dur":10170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370946130, "dur":37599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370983748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680090370984599, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680090370986721, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1680090370986725, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370794796, "dur":1195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370795992, "dur":18240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370814239, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1680090370814356, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370814504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370824282, "dur":14856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1680090370839224, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1680090370839333, "dur":736, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370840090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370840122, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1680090370846059, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1680090370846157, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370846235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370846256, "dur":5639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1680090370851973, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370852060, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370852589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370853326, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370857059, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370857133, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370857417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370857437, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370861119, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370861199, "dur":555, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370861773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370861796, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370866522, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370866608, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370866945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370866968, "dur":4921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370871971, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370872053, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370872146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370872165, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370875032, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370875103, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370875346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370875363, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370877895, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370877987, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370878059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370878076, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370882420, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370882490, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370882672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370882690, "dur":6379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370889152, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370889235, "dur":579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370889831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370889849, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370893694, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370893797, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370894059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370894079, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370896429, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370896502, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370896733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370896750, "dur":5345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370902162, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370902226, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370902432, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370902454, "dur":5025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370907539, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370907611, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370907951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370907971, "dur":4463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370912504, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370912788, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370913076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370913096, "dur":4674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370917843, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370918319, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370918562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370918583, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370922640, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370922714, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370922881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370922900, "dur":13250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370936218, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370936285, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370936492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370936509, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370940779, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370940847, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370941037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370941053, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370945651, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370945718, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370945949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680090370945972, "dur":30939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/User/OneDrive - Kaunas University of Technology/Darbalaukis/l/test 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680090370976974, "dur":9786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680090370998696, "dur":7140, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680090371054159, "dur": 18853, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680090371053910, "dur": 19164, "ph": "X", "name": "Write chrome-trace events", "args": {} },
