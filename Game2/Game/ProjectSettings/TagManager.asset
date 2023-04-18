@@ -8,6 +8,7 @@ TagManager:
   - Spike
   - Gravity
   - Zone
+  - Teleporter
   layers:
   - Default
   - TransparentFX
