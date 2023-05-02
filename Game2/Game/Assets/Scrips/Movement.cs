@@ -10,6 +10,9 @@ public class Movement : MonoBehaviour
     [SerializeField] private float jumpPower = 5;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource itemPickupSound;
+    [SerializeField] private AudioSource changeModeSound;
     //main object variable
     private Rigidbody2D duck;
     // animatio variable
@@ -24,6 +27,8 @@ public class Movement : MonoBehaviour
     bool upGravity = false;
     public static bool hasGravity = false;
     public static bool enteredGravityZone = false;
+    private bool soundPlayed1 = false;
+    private bool soundPlayed2 = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -123,25 +128,41 @@ public class Movement : MonoBehaviour
         if (!gravityOff && Input.GetKeyDown(KeyCode.G))
         {
             gravityOff = true;
+            soundPlayed1 = false;
+            soundPlayed2 = false;
         }
         else if (gravityOff && Input.GetKeyDown(KeyCode.G))
         {
             gravityOff = false;
+            soundPlayed1 = false;
+            soundPlayed2 = false;
         }
 
         if (!gravityOff)
         {
             if (Input.GetKey(KeyCode.S))
             {
+                soundPlayed2 = false;
                 transform.localRotation = Quaternion.Euler(0, 0, 0);
                 Physics2D.gravity = new Vector2(0, -9.8f);
                 upGravity = false;
+                if (!soundPlayed1)
+                {
+                    changeModeSound.Play();
+                    soundPlayed1 = true;
+                }
             }
             if (Input.GetKey(KeyCode.W))
             {
+                soundPlayed1 = false;
                 transform.localRotation = Quaternion.Euler(180, 0, 0);
                 upGravity = true;
                 Physics2D.gravity = new Vector2(0, 9.8f);
+                if (!soundPlayed2)
+                {
+                    changeModeSound.Play();
+                    soundPlayed2 = true;
+                }
             }
         }
 
@@ -153,6 +174,7 @@ public class Movement : MonoBehaviour
             collision.gameObject.SetActive(false);
             gravityOn = true;
             hasGravity = true;
+            itemPickupSound.Play();
         }
 
     }
@@ -163,6 +185,7 @@ public class Movement : MonoBehaviour
         {
             duck.velocity = new Vector2(duck.velocity.x, jumpPower);
             anim.SetTrigger("jump");
+            jumpSound.Play();
         }
         else if (onWall() && !isGrounded())
         {
@@ -177,6 +200,7 @@ public class Movement : MonoBehaviour
                 duck.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
             }
             wallJumpCooldown = 0;
+            jumpSound.Play();
         }
 
     }

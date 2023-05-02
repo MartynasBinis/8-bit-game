@@ -6,6 +6,7 @@ public class SC_2DCoin : MonoBehaviour
 {
     //Keep track of total picked coins
     public static int totalCoins = 0;
+    [SerializeField] private AudioSource audioSource;
 
     void Awake()
     {
@@ -22,6 +23,7 @@ public class SC_2DCoin : MonoBehaviour
             totalCoins++;
             //Test: Print total number of coins
             Debug.Log("You currently have " + SC_2DCoin.totalCoins + " Coins.");
+            audioSource.Play();
             //Destroy coin
             Destroy(gameObject);
         }

@@ -6,6 +6,7 @@ public class PlayerTeleport : MonoBehaviour
 {
     private GameObject currentTeleporter;
     private bool inPortal=false;
+    [SerializeField] private AudioSource teleportSound;
     // Update is called once per frame
     void Update()
     {
@@ -22,6 +23,7 @@ public class PlayerTeleport : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
             if(collision.CompareTag("Teleporter")){
                 currentTeleporter=collision.gameObject;
+                teleportSound.Play();
             }
     }
     private void OnTriggerExit2D(Collider2D collision){

@@ -7,10 +7,14 @@ public class Menu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public static bool IsPlayerDead = false;
+    private bool soundPlayed = false;
     private HealthSystem health;
 
     public GameObject pauseMenuUI;
     public GameObject GameOverUI;
+    public GameObject levelCompletedUI;
+
+    [SerializeField] private AudioSource levelCompleteSound;
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +33,10 @@ public class Menu : MonoBehaviour
         if(IsPlayerDead){
             GameOver();
         }
+        if (CollectCoinsToContinue.allCoinsCollected && !soundPlayed)
+        {
+            LevelCompleted();
+        }
     }
 
     public void Continue(){
@@ -41,6 +49,14 @@ public class Menu : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void LevelCompleted()
+    {
+        levelCompleteSound.Play();
+        levelCompletedUI.SetActive(true);
+        Time.timeScale = 0f;
+        soundPlayed = true;
+    }
+
     public void Respawn(string sceneName){
         health.currentHealth=10;
         IsPlayerDead = false;
@@ -48,7 +64,8 @@ public class Menu : MonoBehaviour
         Time.timeScale = 1f;
         SC_2DCoin.totalCoins=0;
         Movement.gravityOn = false;
-        GameOverUI.SetActive(false);
+        //GameOverUI.SetActive(false);
+        CollectCoinsToContinue.allCoinsCollected = false;
     }
 
     void Pause(){
@@ -57,11 +74,12 @@ public class Menu : MonoBehaviour
         GameIsPaused = true;
     }
     public void GoToScene(string sceneName){
-        pauseMenuUI.SetActive(false);
+        //pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         health.currentHealth=10;
         SC_2DCoin.totalCoins=0;
+        CollectCoinsToContinue.allCoinsCollected = false;
         IsPlayerDead = false;
         SceneManager.LoadScene(sceneName);
     }

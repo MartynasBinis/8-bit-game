@@ -7,6 +7,7 @@ public class HealthSystem : MonoBehaviour
 {
     public int maxHealth = 10;
     public int currentHealth;
+    [SerializeField] private AudioSource deathSound;
 
     public HealthBar healthBar;
 
@@ -28,6 +29,8 @@ public class HealthSystem : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (currentHealth - damage <= 0)
+            deathSound.Play();
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
     }

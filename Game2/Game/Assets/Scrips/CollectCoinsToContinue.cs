@@ -7,22 +7,19 @@ public class CollectCoinsToContinue : MonoBehaviour
 {
     public string sceneName;
     public static int maxCoins = 5;
-    public int giveMaxCoins;
+    public int MaxCoinsToCollect;
+    public static bool allCoinsCollected = false;
     // Start is called before the first frame update
     void Start()
     {
-        maxCoins=giveMaxCoins;
+        maxCoins= MaxCoinsToCollect;
     }
 
     // Update is called once per frame
     void Update()
     {
         if(SC_2DCoin.totalCoins==maxCoins){
-            Load();
+            allCoinsCollected = true;
         }
-    }
-    void Load(){
-        SC_2DCoin.totalCoins=0;
-        SceneManager.LoadScene(sceneName);
     }
 }
