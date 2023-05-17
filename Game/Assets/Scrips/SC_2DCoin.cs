@@ -9,7 +9,7 @@ public class SC_2DCoin : MonoBehaviour
 
     void Awake()
     {
-        //Make Collider2D as trigger 
+        //Make Collider2D as triggerdd 
         GetComponent<Collider2D>().isTrigger = true;
     }
 
