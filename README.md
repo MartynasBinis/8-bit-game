@@ -21,6 +21,7 @@ All in all, this will be an 8bit adventure platform game where collecting specia
    
 # Architektūra
 
+![image](https://github.com/MartynasBinis/8-bit-game/assets/104345266/775bf682-330f-4e60-97c6-b9929fce27dc)
 
 # Testing
 
