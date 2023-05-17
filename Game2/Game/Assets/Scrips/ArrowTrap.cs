@@ -27,7 +27,7 @@ public class ArrowTrap : MonoBehaviour
         }
         return 0;
     }
-    // Start is called before the first frame update
+    // Start is called before the first frame updated
     void Start()
     {
         
