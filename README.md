@@ -33,7 +33,7 @@ All in all, this will be an 8bit adventure platform game where collecting specia
 | Player is on moving platforms  | PLayer is able to stay still on platform and ride a long side with a platform, and reach end point of a platform where its going  | Player is able to stay still and reach other side but it takes properties from moving platform when staying on it  |
 | Moving enemy | When player touches the enemy it takes damage  | Player takes damage but also player can push enemy away  |
 | Knockback from a trap  | It should spring back a player when touched  | Knocback doesnt work at all and sometimes it bugs out a game  |
-| Garvity potion  | When player picks up a potion player is able to manipulate gravity by activating pressing G and controlling it by W and S  | Player can control gravity but player is able to use gravity everywhere and can abuse the level  |
+| Gravity potion  | When player picks up a potion player is able to manipulate gravity by activating pressing G and controlling it by W and S  | Player can control gravity but player is able to use gravity everywhere and can abuse the level  |
 | Coin collect  | When collected all coins player advances to another lever  | After collecting  5 coins player moves to level 2  |
 |  Pushable object |  When player pushes the rock on the red trigger, trigger should become green and door which was closed should open up for player  | Rocked pushed on trigger it turns green and door which was closed opens up for advancing and also when player manipulates gravity object also gets affected  |
 |  Telport player  | Player is able to use teleporter and teleport to a other teleporter wto which is linked to  | PLayer is able to freely walk through teleports at will at anytime  |
